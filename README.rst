@@ -8,12 +8,14 @@ Introduction
 Amsterdam is SELKS and Docker using Compose. The result of Amsterdam is a set of containers
 providing a complete Suricata IDS/NSM ecosystem:
 
- - Suricata
+ - Suricata - with experimental Kafka output
  - Elasticsearch
  - Logstash
  - Kibana
  - Scirius
  - Evebox (https://github.com/jasonish/evebox)
+ - Zookeeper
+ - Kafka
 
 The ELK stack is created using the official docker images. Communication between
 logstash and suricata is done via a share directory (from the host). The same
